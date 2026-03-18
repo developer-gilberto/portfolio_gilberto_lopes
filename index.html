@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gilberto Lopes | Dev</title>
+  <meta name="description" content="Gilberto Lopes - Fullstack developer 💻" />
+  <meta property="og:title" content="Gilberto Lopes" />
+  <meta property="og:description" content="Gilberto Lopes - Fullstack developer 💻" />
+  <meta property="og:image" content="./assets/dev.png" />
+  <meta property="og:url" content="https://gilbertolopes.dev" />
+  <meta property="og:site_name" content="Portfolio Gilberto Lopes" />
+  <meta property="og:type" content="website" />
+  <meta property="article:author" content="Gilberto Lopes" />
+  <meta name="author" content="Gilberto Lopes" />
+  <meta name="robots" content="index, follow" />
+  <link rel="shortcut icon" href="./assets/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <!-- HEADER -->
+    <header>
+      <div class="container-data-gil">
+        <div class="container-img-gil">
+          <img id="img-gil" src="./assets/img/gilberto-lopes.png" alt="gilberto lopes">
+        </div>
+        <h1 id="first-name">Gilberto <em id="last-name">Lopes</em></h1>
+        <div class="badge">Desenvolvedor Full Stack</div>
+      </div>
+
+      <div class="contact-block">
+        <a href="https://www.linkedin.com/in/gilbertolopes-dev/" target="_blank"
+          rel="noopener noreferrer">linkedin.com/in/gilbertolopes-dev</a>
+        <a href="https://www.instagram.com/developer.gilberto/" target="_blank"
+          rel="noopener noreferrer">instagram.com/developer.gilberto</a>
+        <a href="https://github.com/developer-gilberto" target="_blank"
+          rel="noopener noreferrer">github.com/developer-gilberto</a>
+        <a href="mailto:developer.gilberto@gmail.com">developer.gilberto@gmail.com</a>
+        <a href="./assets/cv/cv_gilberto_lopes_fullstack.pdf" download="cv_gilberto_lopes_fullstack.pdf">Currículo</a>
+        <span>São Paulo, BR</span>
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="track"></div>
+      </div>
+    </header>
+
+    <main class="main-grid">
+      <!-- SOBRE MIM -->
+      <section class="about-section">
+        <div class="section-label">Sobre mim</div>
+        <div class="star-card">
+          <p class="resume">
+            Desenvolvedor Full Stack com experiência prática em integração
+            com APIs de terceiros (Shopee) via OAuth. Capaz de entregar
+            projetos frontend e backend desde a concepção até o deploy.
+          </p>
+          <div class="star-steps">
+            <div class="star-step">
+              <div class="star-key">Backend</div>
+              <div class="star-text">
+                Experiência no desenvolvimento e consumo de APIs REST com Node.js,
+                Express e Nest.js, integração com APIs de terceiros
+                incluindo autenticação via OAuth.
+              </div>
+            </div>
+            <div class="star-step">
+              <div class="star-key">Frontend</div>
+              <div class="star-text">
+                Criação de interfaces modernas e responsivas utilizando
+                React, Next.js e TailwindCSS. Foco em trazer uma boa
+                experiências para o usuário.
+              </div>
+            </div>
+            <div class="star-step">
+              <div class="star-key">Banco de dados</div>
+              <div class="star-text">
+                Conhecimento em SQL nativo, ORM, modelagem de banco de dados
+                relacionais, gerenciamento de migrations e implementação de
+                cache com Redis.
+              </div>
+            </div>
+            <div class="star-step">
+              <div class="star-key">Infra</div>
+              <div class="star-text">
+                Utilizo Docker para orquestrar serviços de forma isolada e
+                reproduzível, além de possuir familiaridade com ambientes
+                Linux.
+              </div>
+            </div>
+          </div>
+
+          <!-- SOFT SKILLS -->
+          <section class="soft-skills-section">
+            <ul class="soft-list">
+              <li>Tenho muita facilidade em me relacionar com as pessoas.</li>
+              <li>Busco dar meu melhor em tudo o que faço.</li>
+              <li>Estou sempre aberto a críticas e opniões.</li>
+              <li>Sempre disposto a aprender mais e evoluir.</li>
+            </ul>
+          </section>
+        </div>
+      </section>
+
+      <!-- COMPETÊNCIAS TÉCNICAS -->
+      <section class="skills-section">
+        <div class="section-label">Competências Técnicas</div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Linguagens</div>
+          <div class="skill-tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Backend</div>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Nest.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">Handlebars</span>
+            <span class="tag">APIs REST</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Frontend</div>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">TailwindCSS</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Banco de dados & Cache</div>
+          <div class="skill-tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Prisma ORM</span>
+            <span class="tag">Migrations</span>
+            <span class="tag">Redis</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Autenticação & Autorização</div>
+          <div class="skill-tags">
+            <span class="tag">JWT</span>
+            <span class="tag">OAuth</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Versionamento & Coloboração</div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Infra</div>
+          <div class="skill-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section class="projetos-section">
+        <div class="section-label">Projetos</div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">ShopTurbo API</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" loading="lazy" />
+                TypeScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" loading="lazy" />
+                Node.js
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/express" alt="Express" loading="lazy" />
+                Express
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/prisma" alt="Prisma" loading="lazy" />
+                Prisma
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/postgresql" alt="PostgreSQL" loading="lazy" />
+                PostgreSQL
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/docker" alt="Docker" loading="lazy" />
+                Docker
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/shopturbo-api-screenshot2.png" alt="shopturbo-api" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Uma API REST para meu próprio SaaS ShopTurbo. Desenvolvi essa API para fazer a integração e consumo da
+                API oficial da Shopee
+                com fluxo completo de autenticação via OAuth. A API busca os dados da loja Shopee do usuário e retorna
+                para o frontend os dados paginados. Alguns desses dados são: dados da própria loja, dados dos produtos
+                (preço, estoque, sku, etc) e dados de pedidos (produto comprado, quantidade, valor de cada
+                produto,
+                valor total do pedido, etc), entre outros.
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://shopturbo-api.gilbertolopes.dev/" target="_blank"
+                  rel="noopener noreferrer">Visitar projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/shopturbo-server" target="_blank"
+                  rel="noopener noreferrer">Código fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">ShopTurbo (SaaS)</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" loading="lazy" />
+                JavaScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/nextdotjs" alt="Next.js" loading="lazy" />
+                Next.js
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/react" alt="React" loading="lazy" />
+                React
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/tailwindcss" alt="TailwindCSS" loading="lazy" />
+                TailwindCSS
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/shopturbo-screenshot2.png" alt="shopturbo" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Um sistema SaaS para pessoas que possuem loja na Shopee, com integração com a API oficial da Shopee. Um
+                sistema onde você só precisa informar quanto pagou pelo produto, o imposto e PRONTO! O ShopTurbo possui
+                uma API própria que busca os dados dos produtos da sua loja na Shopee, faz os cálculos necessários e
+                mostra em uma interface intuitiva um relatório completo com os custos (frete, impostos, preço de custo,
+                etc), faturamento e lucro líquido da sua loja Shopee. Chega de vender no escuro e não saber seus custos
+                e lucros reais. Assine o ShopTurbo e tenha controle total da sua loja Shopee!
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://shopturbo.gilbertolopes.dev/" target="_blank"
+                  rel="noopener noreferrer">Visitar projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/shopturbo" target="_blank"
+                  rel="noopener noreferrer">Código fonte</a>
+                <a class="project-btn"
+                  href="https://www.linkedin.com/posts/gilbertolopes-dev_estou-resolvendo-um-problema-real-estou-activity-7425900737240547329-_Ncw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEO5ukUBQuDp5pnTt2wZPhE7ipMt6GpY268"
+                  target="_blank" rel="noopener noreferrer">Qual problema ShopTurbo resolve?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">Task Manager API</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" loading="lazy" />
+                TypeScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" loading="lazy" />
+                Node.js
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/nestjs" alt="Nest.js" loading="lazy" />
+                Nest.js
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/prisma" alt="Prisma" loading="lazy" />
+                Prisma
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/postgresql" alt="PostgreSQL" loading="lazy" />
+                PostgreSQL
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/jest" alt="Jest" loading="lazy" />
+                Jest
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/swagger" alt="Swagger" loading="lazy" />
+                Swagger
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/docker" alt="Docker" loading="lazy" />
+                Docker
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/taskmanager-api-screenshot2.png"
+                alt="taskmanager-api" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Uma API RESTful robusta e escalável para criar um sistema de gestão de projetos e tarefas, onde ADMIN
+                acompanha o progresso (status: To Do → In Progress → Done); Equipes podem criar projetos e atribuir
+                tarefas; Colaboradores podem ser adicionados/removidos do projeto e podem adicionar comentários nas
+                tarefas.
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://task-manager-nestjs-production.up.railway.app/api/v1/docs"
+                  target="_blank" rel="noopener noreferrer">Visitar projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/task-manager-nestjs" target="_blank"
+                  rel="noopener noreferrer">Código fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">Funny</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" loading="lazy" />
+                JavaScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" loading="lazy" />
+                Node.js
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/express" alt="Express" loading="lazy" />
+                Express
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/handlebarsdotjs" alt="Handlebars" loading="lazy" />
+                Handlebars
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/mysql" alt="MySQL" loading="lazy" />
+                MySQL
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/docker" alt="Docker" loading="lazy" />
+                Docker
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/funny-screenshot2.png" alt="funny" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Funny é uma rede social que permite aos usuários fazer publicações com texto e/ou imagens, buscar por
+                outros usuários, conectar-se com amigos e interagir em uma plataforma social “clean” e divertida.
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://funny.gilbertolopes.dev/" target="_blank"
+                  rel="noopener noreferrer">Visitar projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/Funny-rede-social" target="_blank"
+                  rel="noopener noreferrer">Código fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">Landing page portfólio</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" loading="lazy" />
+                JavaScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/html5" alt="HTML5" loading="lazy" />
+                HTML5
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/css" alt="CSS3" loading="lazy" />
+                CSS3
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/portfolio-screenshot2.png" alt="portfolio" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Landing page desenvolvida com objetivo de praticar html, css e javascript.
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://portifolio-gilberto-92xi6ljya-gilberto-lopes-projects.vercel.app/"
+                  target="_blank" rel="noopener noreferrer">Visitar projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/portifolio-gilberto" target="_blank"
+                  rel="noopener noreferrer">Código fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-title">Calculadora</span>
+            <span class="project-stack">
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" loading="lazy" />
+                JavaScript
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/html5" alt="HTML5" loading="lazy" />
+                HTML5
+              </span>
+              <span class="pill">
+                <img src="https://cdn.simpleicons.org/css" alt="CSS3" loading="lazy" />
+                CSS3
+              </span>
+            </span>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <img class="project-screenshot" src="./assets/img/calculadora-screenshot2.png" alt="calculadora" />
+            </div>
+            <div>
+              <p class="project-desc">
+                Calculadora desenvolvida com o objetivo de praticar vanilla javascript.
+              </p>
+              <div class="container-project-btn">
+                <a class="project-btn" href="https://developer-gilberto.github.io/calculadora-javascript/"
+                  target="_blank" rel="noopener noreferrer">Visitar
+                  projeto</a>
+                <a class="project-btn" href="https://github.com/developer-gilberto/calculadora-javascript"
+                  target="_blank" rel="noopener noreferrer">Código fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORMAÇÃO -->
+      <section class="formacao-section">
+        <div class="section-label">Formação & Cursos</div>
+        <div class="edu-item">
+          <div class="edu-course">JavaScript do básico ao avançado</div>
+          <div class="edu-school">Hora de Codar</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">Lógica de programação e algoritmos</div>
+          <div class="edu-school">Curso em Vídeo</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">APIs modernas com Nest.js</div>
+          <div class="edu-school">Udemy</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">TypeScript avançado</div>
+          <div class="edu-school">CFB Cursos</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">JavaScript</div>
+          <div class="edu-school">Curso em Vídeo</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">Banco de dados relacionais</div>
+          <div class="edu-school">Curso em Vídeo</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">Docker</div>
+          <div class="edu-school">Full Cycle</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">Linux</div>
+          <div class="edu-school">Hora de Codar</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">HTML5 e CSS3</div>
+          <div class="edu-school">Curso em Vídeo</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-course">Tecnólogo em Petróleo e Gás</div>
+          <div class="edu-school">FASB</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-note">Aberto a oportunidades que me permitam contribuir de forma prática em
+        projetos que geram valor na empresa e nas pessoas.</span>
+      <div class="availability">
+        <div class="dot"></div>
+        Disponibilidade de mudança de endereço para trabalho presencial
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const skills = [
+      { label: 'TypeScript', slug: 'typescript' },
+      { label: 'JavaScript', slug: 'javascript' },
+      { label: 'HTML5', slug: 'html5' },
+      { label: 'CSS3', slug: 'css' },
+      { label: 'Node.js', slug: 'nodedotjs' },
+      { label: 'Express', slug: 'express' },
+      { label: 'Nest.js', slug: 'nestjs' },
+      { label: 'React', slug: 'react' },
+      { label: 'Next.js', slug: 'nextdotjs' },
+      { label: 'Tailwind CSS', slug: 'tailwindcss' },
+      { label: 'PostgreSQL', slug: 'postgresql' },
+      { label: 'MySQL', slug: 'mysql' },
+      { label: 'SQLite', slug: 'sqlite' },
+      { label: 'Prisma', slug: 'prisma' },
+      { label: 'Redis', slug: 'redis' },
+      { label: 'Docker', slug: 'docker' },
+      { label: 'Linux', slug: 'linux' },
+      { label: 'Git', slug: 'git' },
+      { label: 'GitHub', slug: 'github' },
+    ];
+
+    const base = 'https://cdn.simpleicons.org/';
+
+    const pill = ({ label, slug }) =>
+      `<span class="pill">
+        <img src="${base}${slug}" alt="${label}" loading="lazy" />
+        ${label}
+      </span>`;
+
+    const sep = () => `<span class="sep" aria-hidden="true">·</span>`;
+
+    const items = [...skills, ...skills];
+    document.getElementById('track').innerHTML = items.map(pill).join(sep());
+  </script>
+</body>
+
+</html>
